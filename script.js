@@ -9,6 +9,7 @@ const childIndicator = document.querySelectorAll('#indicator div');
 const slideImagesContainer = document.querySelectorAll('.project-slide');
 const typed = document.querySelector('#header-content span');
 const skills = document.querySelector('#my-skills-container ul')
+const skillsList = document.querySelectorAll('#my-skills-container ul li')
 const typedInfo = 'a Frontend Developer';
 
 
@@ -17,7 +18,17 @@ let miniState = 0;
 let initial = 0;
 
 const scrollAnime = () => {
-    console.log(skills.offsetTop - window.innerHeight + skills.clientHeight/2);
+    skillsList.forEach((skill) => {
+        let skillsTarget =skill.offsetTop - window.innerHeight + skill.clientHeight/2;
+        let skillsEndTarget = skills.offsetTop + skills.clientHeight;
+        if (window.scrollY > skillsTarget && window.scrollY < skillsEndTarget) {
+            skill.style.opacity=1;
+            skill.style.transform='translateY(-5vh)';
+        }else {
+            skill.style.opacity=0;
+            skill.style.transform='translateY(0)';
+        }
+    })
 }
 
 const typer = () => {
