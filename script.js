@@ -54,7 +54,7 @@ const indicator = () =>{
     childIndicator.forEach((indicator) => {
         indicator.removeAttribute('id');
     })
-    childIndicator[state].setAttribute('id','active');
+    childIndicator[Math.floor(state)].setAttribute('id','active');
 }
 
 const slide = () => {
@@ -66,14 +66,14 @@ const slide = () => {
 const updater = (action) => {
     if(action === 'right') {
         if(state < projects.length - 2) {
-            state++;
+            state=state+0.5;
         }else {
             state = projects.length - 2;
         }
     }
     else if (action === 'left') {
         if(state > -1) {
-            state--;
+            state=state-0.5;
         } else {
             state = 0;
         }
