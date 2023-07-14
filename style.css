@@ -370,6 +370,11 @@ p.navigate:hover {
     bottom: 1rem;
     left: 50%;
     display: flex;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 #indicator div {
