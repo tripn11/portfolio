@@ -444,10 +444,10 @@ p.navigate:hover {
     overflow-y: auto;
     height: 75%;
     padding: 0 0.9rem;
-    font-weight: 100;
-    font-size: 0.9rem;
+    font-weight: 300;
+    font-size: 1rem;
     text-align: justify;
-    line-height: 1.8rem;
+    line-height: 1.7rem;
 }
 
 .project-description::-webkit-scrollbar {
@@ -727,10 +727,6 @@ TABLET
 
     .project {
         margin: 5rem 2rem;
-    }
-
-    .project-description p {
-        color: white;
     }
 
     /*---------------------------------------------------------------------------
