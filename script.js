@@ -10,7 +10,7 @@ const slideImagesContainer = document.querySelectorAll('.project-slide');
 const typed = document.querySelector('#header-content span');
 const skills = document.querySelector('#my-skills-container ul')
 const skillsList = document.querySelectorAll('#my-skills-container ul li')
-const typedInfo = 'a Frontend Developer';
+const typedInfo = 'a Full Stack Developer';
 
 
 let state = 0;
