@@ -32,8 +32,8 @@ const scrollAnime = () => {
 }
 
 const typer = () => {
-        typed.innerHTML += typedInfo.charAt(initial);
-        initial++;
+    typed.innerHTML += typedInfo.charAt(initial);
+    initial++;
 }
 
 const continuousSlide = () => {
