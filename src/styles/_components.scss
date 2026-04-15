@@ -1,0 +1,77 @@
+.magnetic-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  transition:
+    transform 0.3s cubic-bezier(0.23, 1, 0.32, 1),
+    border-color 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease,
+    box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.button {
+  padding: 18px 40px;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  letter-spacing: 0.06em;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-blue));
+  color: #fff;
+  box-shadow: var(--shadow-glow);
+}
+
+.button--secondary {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: var(--text-soft);
+}
+
+.button--secondary:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.button--project-primary {
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: var(--button-color, var(--accent));
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.button--project-secondary {
+  padding: 10px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-soft);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.button--disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+.button--submit {
+  width: fit-content;
+}
+
+@media (max-width: 900px) {
+  .button--submit {
+    width: 100%;
+  }
+}
