@@ -50,7 +50,7 @@ export const PROJECTS = [
     tech: ['React', 'Node.js', 'MongoDB', 'Express', 'AI'],
     description:
       'An all-in-one school operations platform covering result compilation and generation, school fees payment, attendance tracking, inventory management, AI assessments, and educational video delivery.',
-    live: "https://nvolveresults.com",
+    live: "https://nvolve-results.vercel.app/",
     code: null,
   },
   {
@@ -62,7 +62,7 @@ export const PROJECTS = [
     tech: ['React', 'Node.js', 'MongoDB', 'Analytics'],
     description:
       'A finance companion that helps users track expenses and income, set budgets, review progress with analysis dashboards, and generate tax summaries from their financial journey.',
-    live: "https://nvolve-results.vercel.app/",
+    live: "https://nordit.vercel.app/",
     code: "https://github.com/tripn11/Nordit",
   },
   {
