@@ -47,7 +47,7 @@ export const PROJECTS = [
     year: '2025',
     color: '#7C3AED',
     accent: '#A78BFA',
-    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'AI'],
+    tech: ['Next.js', 'Node.js', 'MongoDB', 'Express', 'AI'],
     description:
       'An all-in-one school operations platform covering result compilation and generation, school fees payment, attendance tracking, inventory management, AI assessments, and educational video delivery.',
     live: "https://nvolve-results.vercel.app/",
@@ -59,7 +59,7 @@ export const PROJECTS = [
     year: '2022',
     color: '#0F766E',
     accent: '#2DD4BF',
-    tech: ['React', 'Node.js', 'MongoDB', 'Analytics'],
+    tech: ['React', 'MongoDB', 'Firebase', "AI"],
     description:
       'A finance companion that helps users track expenses and income, set budgets, review progress with analysis dashboards, and generate tax summaries from their financial journey.',
     live: "https://nordit.vercel.app/",
@@ -67,11 +67,11 @@ export const PROJECTS = [
   },
   {
     name: 'Enerplaz EVs',
-    tag: 'Next.js Vehicle Showcase',
+    tag: 'Vehicle Showcase',
     year: '2025',
     color: '#1D4ED8',
     accent: '#60A5FA',
-    tech: ['Next.js', 'React', 'TypeScript'],
+    tech: ['Next.js', 'SCSS'],
     description:
       'A clean vehicle showcase built for the Nigerian market, presenting electric vehicles available for sale with a polished browsing experience and clear product storytelling.',
     live: "https://enerplazevs.com",
@@ -79,11 +79,11 @@ export const PROJECTS = [
   },
   {
     name: 'PayGo',
-    tag: 'Next.js Solar Platform',
+    tag: 'Solar Company Platform',
     year: '2026',
     color: '#B45309',
     accent: '#FCD34D',
-    tech: ['Next.js', 'React', 'Payments'],
+    tech: ['Next.js', 'TypeScript', 'SCSS'],
     description:
       'A pay-as-you-go platform for a solar company that installs major power systems, giving customers a clear path to browse solutions and make structured staged payments.',
     live: "https://paygo-sigma.vercel.app/",
